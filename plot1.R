@@ -2,7 +2,7 @@
 library(data.table)
 
 #************************************** Plot 1**************************************
-setwd("C:/Users/snamin/Desktop/Coursera/Exploratory Data Analysis")
+setwd("dataDir/Exploratory Data Analysis")
 
 data_full <- read.csv("household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                       nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')

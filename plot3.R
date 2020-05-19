@@ -4,7 +4,7 @@
 library(data.table)
 
 #************************************** Plot 3**************************************
-setwd("C:/Users/snamin/Desktop/Coursera/Exploratory Data Analysis")
+setwd("dataDir/Exploratory Data Analysis")
 
 
 data1 <- subset(data_full, Date %in% c("1/2/2007","2/2/2007"))
